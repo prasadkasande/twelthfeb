@@ -15,6 +15,8 @@ public class QRCode {
 		String data = "Qr Code genrated by Vaijnath Kasande" ;
 		
 		String path = "./qrcode.png";
+
+		System.out.println("Hello world!");
 		
 		BitMatrix matrix = new MultiFormatWriter().encode(data, BarcodeFormat.QR_CODE, 500, 500);
 		
